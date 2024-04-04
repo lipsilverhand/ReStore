@@ -2,7 +2,6 @@ import { Catalog } from "./features/catalog/Catalog";
 import { createTheme, ThemeProvider ,Container, CssBaseline } from "@mui/material";
 import { Header } from "./components/Header";
 import { useState } from "react";
-import { TurnedInOutlined } from "@mui/icons-material";
 
 function App() {
   const [darkmode, setDarkmode] = useState(false);
